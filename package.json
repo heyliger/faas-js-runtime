@@ -19,6 +19,7 @@
     "test:types": "tsd",
     "pretest": "npm run lint",
     "sbom": "npx @cyclonedx/cyclonedx-npm --omit dev --package-lock-only --output-file sbom.json",
+    "build": "tsc",
     "prepare": "npm run build"
   },
   "description": "A Node.js framework for executing arbitrary functions in response to HTTP or cloud events",
